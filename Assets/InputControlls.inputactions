@@ -1,0 +1,96 @@
+{
+    "name": "InputControlls",
+    "maps": [
+        {
+            "name": "GamePad",
+            "id": "31cf72f9-ede8-4c69-890b-f358ec5ed49f",
+            "actions": [
+                {
+                    "name": "Move",
+                    "type": "Value",
+                    "id": "393f0dcf-10eb-452c-9f7f-db873b787d29",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "TouchStart",
+                    "type": "Button",
+                    "id": "d879fcb9-ec20-4011-bf73-ed99ebb8203c",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "TouchMove",
+                    "type": "PassThrough",
+                    "id": "d041d9f4-7852-4d78-b7f2-64848525599e",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "31cc4cea-4c46-4ce8-a2df-7855c3966e6e",
+                    "path": "<Gamepad>/leftStick",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "4dd6aa60-304c-4030-a031-1aecb720495e",
+                    "path": "<Touchscreen>/touch0/press",
+                    "interactions": "Press",
+                    "processors": "",
+                    "groups": "",
+                    "action": "TouchStart",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "5f4ca2d1-bc7e-473b-bcc9-5f151b29e064",
+                    "path": "<Mouse>/press",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "TouchStart",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "55ab61a6-e840-4dd3-9889-7fe4878f2f1d",
+                    "path": "<Touchscreen>/position",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "TouchMove",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "63b88ff7-fe32-419a-9d67-da74bf6a68a0",
+                    "path": "<Mouse>/position",
+                    "interactions": "Press",
+                    "processors": "",
+                    "groups": "",
+                    "action": "TouchMove",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
