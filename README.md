@@ -1,4 +1,8 @@
 # hc-runner
 
-[![Watch the video]]([https://youtu.be/vt5fpE0bzSY](https://youtube.com/shorts/KYBuGW_Yml8?feature=share))
-![Watch the video](https://img.youtube.com/vi/KYBuGW_Yml8?feature=share/maxresdefault.jpg)]([https://youtu.be/T-D1KVIuvjA](https://youtube.com/shorts/KYBuGW_Yml8?))
+
+
+# Preview of gameplay
+
+https://user-images.githubusercontent.com/7479866/175565894-e209ae8b-469c-49e2-9c66-dcf45e7f9c6d.mov
+
